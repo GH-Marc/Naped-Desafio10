@@ -1,0 +1,27 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 26px auto;
+
+  h1 {
+    color: var(--purple-500);
+  }
+
+  button {
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 1px solid var(--purple-500);
+    background-color: transparent;
+    color: var(--white-100);
+  }
+}
+
+.header_list {
+  display: flex;
+
+  li {
+    list-style: none;
+    margin-left: 60px;
+  }
+}
