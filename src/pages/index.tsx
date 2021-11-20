@@ -17,9 +17,34 @@ export interface HomeProps {
     description: string;
     image: string;
   }[];
+  news_content: {
+    news_content_id: number;
+    news_content_tag: string;
+    news_content_title: string;
+    news_content_image: string;
+    news_content_description: string;
+    news_content_date: string;
+  }[];
+  right_pannel_content: {
+    pannel_id: number;
+    pannel_tag: string;
+    pannel_image: string;
+    pannel_title: string;
+  }[];
+  recent_news_content: {
+    recent_news_id: number;
+    recent_news_tag: string;
+    recent_news_image: string;
+    recent_news_title: string;
+  }[];
 }
 
-export default function Home({ home_content }: HomeProps) {
+export default function Home({ 
+  home_content,
+  news_content,
+  right_pannel_content,
+  recent_news_content
+}: HomeProps) {
   return (
     <Layout>
       <Head>
@@ -28,21 +53,33 @@ export default function Home({ home_content }: HomeProps) {
 
       <Header />
       <Main home_content={home_content} />
-      <News />
-      <RecentNews />
+      <News 
+        news_content={news_content}
+        right_pannel_content={right_pannel_content}
+      />
+      <RecentNews recent_news_content={recent_news_content} />
       <Footer />
     </Layout>
   )
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const response = await api.get("home_content");
+  const home_content_response = await api.get("home_content");
+  const news_content_response = await api.get("news_content");
+  const right_pannel_content_response = await api.get("right_pannel_content");
+  const recent_news_content_response = await api.get("recent_news_content");
 
-  const home_content = response.data;
+  const home_content = home_content_response.data;
+  const news_content = news_content_response.data;
+  const right_pannel_content = right_pannel_content_response.data;
+  const recent_news_content = recent_news_content_response.data;
 
   return {
     props: {
       home_content,
+      news_content,
+      right_pannel_content,
+      recent_news_content
     },
   };
 };
