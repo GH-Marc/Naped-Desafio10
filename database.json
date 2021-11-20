@@ -53,25 +53,26 @@
       "news_content_image": "/images/news_content/8.png",
       "news_content_description": "Saiba exatamente quantas temporadas compõe esta belissíma série que rondou durante anos conosco.",
       "news_content_date": "20/11/2020"
+    }
+  ],
+  "right_pannel_content": [
+    {
+      "pannel_id": 1,
+      "pannel_tag": "Filmes",
+      "pannel_image": "/images/right_pannel_content/9.png",
+      "pannel_title": "Aqui você confere todos esses títulos do estúdio Ghibli em ordem cronológica. E, para facilitar sua maratona, seus respectivos links para a Netflix."
     },
     {
-      "right_pannel_content": [
-        {
-          "pannel_id": 1,
-          "pannel_tag": "Filmes",
-          "pannel_title": "Aqui você confere todos esses títulos do estúdio Ghibli em ordem cronológica. E, para facilitar sua maratona, seus respectivos links para a Netflix, já que desde fevereiro de 2020 quase todo o seu catálogo foi adicionado à plataforma."
-        },
-        {
-          "pannel_id": 2,
-          "pannel_tag": "Geek",
-          "pannel_title": "Saiba de alguns conteúdos que podem lhe influenciar de forma positiva sobre alguns tópicos relacionados com tecnologia."
-        },
-        {
-          "pannel_id": 3,
-          "pannel_tag": "Games",
-          "pannel_title": "Fique por dentro de todos os easter eggs contidos em God of War 4!"
-        }
-      ]
+      "pannel_id": 2,
+      "pannel_tag": "Geek",
+      "pannel_image": "/images/right_pannel_content/10.png",
+      "pannel_title": "Saiba de alguns conteúdos que podem lhe influenciar de forma positiva sobre alguns tópicos relacionados com tecnologia."
+    },
+    {
+      "pannel_id": 3,
+      "pannel_tag": "Games",
+      "pannel_image": "/images/right_pannel_content/11.png",
+      "pannel_title": "Fique por dentro de todos os easter eggs contidos em God of War 4!"
     }
   ],
   "recent_news_content": [
@@ -103,7 +104,7 @@
       "recent_news_id": 5,
       "recent_news_tag": "Filmes",
       "recent_news_image": "/images/recent_news/13.png",
-      "recent_news_title": "O romance do anime com maior sucesso de bilheteria de todos os tempos. Mitsuha é uma estudante que vive em uma pequena cidade nas montanhas. Apesar de sua vida tranquila, ela sempre se sentiu atraída pelo cotidiano das grandes cidades. Um dia, Mitsuha tem um sonho estranho em que se torna um garoto."
+      "recent_news_title": "O romance do anime com maior sucesso de bilheteria de todos os tempos. Mitsuha é uma estudante que vive em uma pequena cidade nas montanhas. Saiba mais..."
     },
     {
       "recent_news_id": 6,
