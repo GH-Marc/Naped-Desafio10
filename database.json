@@ -1,0 +1,115 @@
+{
+  "home_content": [
+    {
+      "id": 1,
+      "tag": "Animes",
+      "description": "Shinheki no Kyojin é ambientado em um mundo onde a humanidade vive dentro de cidades cercadas por três enormes muralhas que os protegem de gigantescos Titãs.",
+      "image": "https://geeksinaction.com.br/wp-content/uploads/2017/05/ShingekinoKyojin1-752x440.jpg"
+    },
+    {
+      "id": 2,
+      "tag": "Games",
+      "description": "Fique por dentro das atualizações do novo patch em League of Legends.",
+      "image": "https://sm.ign.com/ign_br/blogroll/l/league-of-/league-of-legends-mobile-new-screenshots-and-gameplay_sajh.jpg"
+    }
+  ],
+  "news_content": [
+    {
+      "news_content_id": 1,
+      "news_content_tag": "Animes",
+      "news_content_title": "Saga de Pain, veja na intrega como foi...",
+      "news_content_image": "/images/news_content/4.png",
+      "news_content_description": "Neste tópico iremos discutir sobre como foi uma das melhores sagas no anime Naruto Shippuden.",
+      "news_content_date": "22/04/2010"
+    },
+    {
+      "news_content_id": 2,
+      "news_content_tag": "Geek",
+      "news_content_title": "Veja alguns segredos sobre o ícone dos alt heróis da Marvel.",
+      "news_content_image": "/images/news_content/5.png",
+      "news_content_description": "Você sabia que o personagem mais íconico da Marvel possui alguns segredos mirabolante? Venha checar mais.",
+      "news_content_date": "12/02/2016"
+    },
+    {
+      "news_content_id": 3,
+      "news_content_tag": "Games",
+      "news_content_title": "Saiba como usar alguns truques muito efetivos para usar em Minecraft.",
+      "news_content_image": "/images/news_content/6.png",
+      "news_content_description": "Pra quem está iniciando no jogo, sempre passa por um aperto muito grande contra mobs. Nesse post iremos mostrar lhe mostrar como se sair bem, mesmo no começo da sua campanha.",
+      "news_content_date": "15/07/2017"
+    },
+    {
+      "news_content_id": 4,
+      "news_content_tag": "Filmes",
+      "news_content_title": "Tudo sobre os filmes de Harry Poter em um lugar só.",
+      "news_content_image": "/images/news_content/7.png",
+      "news_content_description": "Fique por dentro de todos os filmes estrelhados dessa grandíssima obra.",
+      "news_content_date": "07/05/2015"
+    },
+    {
+      "news_content_id": 5,
+      "news_content_tag": "Séries",
+      "news_content_title": "Supernatural chega ao fim.",
+      "news_content_image": "/images/news_content/8.png",
+      "news_content_description": "Saiba exatamente quantas temporadas compõe esta belissíma série que rondou durante anos conosco.",
+      "news_content_date": "20/11/2020"
+    },
+    {
+      "right_pannel_content": [
+        {
+          "pannel_id": 1,
+          "pannel_tag": "Filmes",
+          "pannel_title": "Aqui você confere todos esses títulos do estúdio Ghibli em ordem cronológica. E, para facilitar sua maratona, seus respectivos links para a Netflix, já que desde fevereiro de 2020 quase todo o seu catálogo foi adicionado à plataforma."
+        },
+        {
+          "pannel_id": 2,
+          "pannel_tag": "Geek",
+          "pannel_title": "Saiba de alguns conteúdos que podem lhe influenciar de forma positiva sobre alguns tópicos relacionados com tecnologia."
+        },
+        {
+          "pannel_id": 3,
+          "pannel_tag": "Games",
+          "pannel_title": "Fique por dentro de todos os easter eggs contidos em God of War 4!"
+        }
+      ]
+    }
+  ],
+  "recent_news_content": [
+    {
+      "recent_news_id": 1,
+      "recent_news_tag": "Filmes",
+      "recent_news_image": "/images/recent_news/9.png",
+      "recent_news_title": "Descubra algumas curiosidades interessantes sobre o Studio Ghibli."
+    },
+    {
+      "recent_news_id": 2,
+      "recent_news_tag": "Games",
+      "recent_news_image": "/images/recent_news/10.png",
+      "recent_news_title": "Saiba qual o perfil se encaixa com você para jogar na campanha de GTA V."
+    },
+    {
+      "recent_news_id": 3,
+      "recent_news_tag": "Séries",
+      "recent_news_image": "/images/recent_news/11.png",
+      "recent_news_title": "Como foi a tragetória e vitórias de Ragnar durante sua vida na série Vikings."
+    },
+    {
+      "recent_news_id": 4,
+      "recent_news_tag": "Filmes",
+      "recent_news_image": "/images/recent_news/12.png",
+      "recent_news_title": "Filmes infantis e ao mesmo tempo bem intuítivos."
+    },
+    {
+      "recent_news_id": 5,
+      "recent_news_tag": "Filmes",
+      "recent_news_image": "/images/recent_news/13.png",
+      "recent_news_title": "O romance do anime com maior sucesso de bilheteria de todos os tempos. Mitsuha é uma estudante que vive em uma pequena cidade nas montanhas. Apesar de sua vida tranquila, ela sempre se sentiu atraída pelo cotidiano das grandes cidades. Um dia, Mitsuha tem um sonho estranho em que se torna um garoto."
+    },
+    {
+      "recent_news_id": 6,
+      "recent_news_tag": "Games",
+      "recent_news_image": "/images/recent_news/14.png",
+      "recent_news_title": "Saiba quais foram os personagens mais jogados em League of Legends em 2020."
+    }
+  ]
+}
