@@ -7,7 +7,7 @@ export function Header() {
 
       <div>
         <ul className={styles.header_list}>
-          <li>
+          <li className={styles.active}>
             <a href="#">Home</a>
           </li>
           <li>
