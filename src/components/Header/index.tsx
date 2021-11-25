@@ -1,9 +1,13 @@
+import Link from 'next/link';
+
 import styles from './styles.module.scss';
 
 export function Header() {
   return (
     <header className={styles.header_container}>
-      <h1>Naped</h1>
+      <Link href="/">
+        <h1>Naped</h1>
+      </Link>
 
       <div>
         <ul className={styles.header_list}>
