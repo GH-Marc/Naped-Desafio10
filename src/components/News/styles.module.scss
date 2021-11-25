@@ -76,20 +76,25 @@
   }
 }
 
-.pannel_divier {
+.pannel_divider {
   width: 250px;
   border: 2px solid var(--purple-500);
   margin: 13px 0;
 }
 
 .pannel_image {
+  position: relative;
   width: 338px;
   height: 250px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
   margin-bottom: 47px;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   span {
     position: absolute;
