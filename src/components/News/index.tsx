@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import styles from './styles.module.scss';
 
 interface NewsProps {
@@ -45,17 +47,19 @@ export function News({ news_content, right_pannel_content }: NewsProps) {
       <div className={styles.right_pannel_container}>
         <h2>Veja também</h2>
 
-        <div className={styles.pannel_divier}></div>
+        <div className={styles.pannel_divider}></div>
+
         {right_pannel_content.map((content) => {
           return (
-            <div 
-              key={content.pannel_id}
-              className={styles.pannel_image}
-              style={{ backgroundImage: `linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(${content.pannel_image})`}}
-            >
-              <span>{content.pannel_tag}</span>
-              <p>{content.pannel_title}</p>
-            </div>
+            <Link key={content.pannel_id} href="/news" passHref>
+              <div
+                className={styles.pannel_image}
+                style={{ backgroundImage: `linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(${content.pannel_image})`}}
+              >
+                <span>{content.pannel_tag}</span>
+                <p>{content.pannel_title}</p>
+              </div>
+            </Link>
           )
         })}
       </div>
