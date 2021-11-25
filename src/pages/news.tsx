@@ -1,13 +1,24 @@
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { Layout } from '../components/Layout';
 import { RecentNews } from '../components/RecentNews';
+import { api } from '../services/api';
 
 import news from '../styles/pages/news.module.scss';
 
-export default function News() {
+interface NewsProps {
+  recent_news_content: {
+    recent_news_id: number;
+    recent_news_tag: string;
+    recent_news_image: string;
+    recent_news_title: string;
+  }[];
+}
+
+export default function News({ recent_news_content }: NewsProps) {
   return (
     <Layout>
       <Head>
@@ -39,8 +50,20 @@ export default function News() {
         </div>
       </div>
 
-      <RecentNews />
+      <RecentNews recent_news_content={recent_news_content} />
       <Footer />
     </Layout>
   )
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const recent_news_content_response = await api.get("recent_news_content");
+
+  const recent_news_content = recent_news_content_response.data;
+
+  return {
+    props: {
+      recent_news_content
+    },
+  };
+};
